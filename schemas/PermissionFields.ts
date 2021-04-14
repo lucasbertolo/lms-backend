@@ -17,6 +17,10 @@ export const permissionFields = {
     defaultValue: false,
     label: 'User can CRUD roles',
   }),
+  canReadProjects: checkbox({
+    defaultValue: false,
+    label: 'User can read project items',
+  }),
   canManageProjects: checkbox({
     defaultValue: false,
     label: 'User can see and manage project items',
